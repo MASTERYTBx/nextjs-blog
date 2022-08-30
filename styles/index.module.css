@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.title{
+    text-align: center;
+    text-decoration: none;
+}
+
+.p{
+    font-size: 24px;
+}
+
+.button{
+    background-color: white; /* Green */
+    border: 2px solid #7270e6;
+    color: rgba(15, 0, 0, 0.4);
+    padding: 20px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    right: -210px;
+    top: 300px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:relative;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    font-family: 'Archivo Black', sans-serif;
+    z-index: 1;
+    font-size: medium;
+}
+
+.button:hover{
+    background-color: #7270e6;
+    color:white;
+}
