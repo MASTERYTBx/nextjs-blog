@@ -4,11 +4,13 @@
     text-align: center;
     text-decoration: none;
     padding-top: 30px;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .p{
     font-size: 24px;
     color: #7bb35f;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .button{
