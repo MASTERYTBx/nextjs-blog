@@ -10,11 +10,9 @@ export default function Home(){
     <Layout>
       <Navbar>
         <Footer>
-        <h1 className={design.title}>
-          Welcome to <Link href="/posts/first-post"><a className={design.title}><span className='Styles.span'>Radon Technologies!</span></a></Link>
-          <p className={design.p}>Our Prices are so juicy that you've never imagined it 😊</p>
-        </h1>
-        <button className={design.button}>Read Bio</button>
+          <h1>
+           Products
+          </h1>
         </Footer>
       </Navbar>
     </Layout>

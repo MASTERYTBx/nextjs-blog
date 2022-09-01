@@ -3,10 +3,12 @@
 .title{
     text-align: center;
     text-decoration: none;
+    padding-top: 30px;
 }
 
 .p{
     font-size: 24px;
+    color: #7bb35f;
 }
 
 .button{
