@@ -19,7 +19,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    right: -210px;
+    right: -175px;
     top: 300px;
     margin: 4px 2px;
     cursor: pointer;
@@ -29,6 +29,7 @@
     font-family: 'Archivo Black', sans-serif;
     z-index: 1;
     font-size: medium;
+    size: 10%;
 }
 
 .button:hover{
