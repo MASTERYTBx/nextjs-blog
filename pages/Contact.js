@@ -13,6 +13,10 @@ export default function Home(){
           <h1>
            Contacts
           </h1>
+
+          <Link href="https://discord.gg/f4sZsacb5v">
+            <button className={design.button}>Join Discord Server</button>
+          </Link>
         </Footer>
       </Navbar>
     </Layout>
