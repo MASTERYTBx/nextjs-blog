@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "name": "Announcement GUI",
+      "Price": "R$ 50",
+      "Creator": "Radon Technologies"
+    },
+
+    {
+        "id": 2,
+        "name": "Signalling System",
+        "Price": "R$250",
+        "Creator": "Radon Technologies"
+      }
+]

@@ -5,14 +5,31 @@ import design from '../styles/index.module.css'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
-export default function Home(){
+export const getStaticProps = async() => {
+  const res = await fetch('https://jsonplaceholder.typicode.com/users');
+  const data = await res.json();
+
+  return {
+    props: {products: data}
+  }
+
+}
+
+export default function Home({ products }){
   return(
     <Layout>
       <Navbar>
         <Footer>
           <h1>
-           Products
+           Products [Test Release]
           </h1>
+          {products.map(product =>
+            <Link href={"/Products/" + product.id} key={product.id}>
+              <a className={design.a}>
+                <h3>{ product.name + " " + product.username}</h3>
+              </a>
+            </Link>
+          )}
         </Footer>
       </Navbar>
     </Layout>
