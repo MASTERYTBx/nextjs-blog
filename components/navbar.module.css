@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 .ul{
     list-style-type: none;
     margin: 0;
@@ -9,6 +11,7 @@
     top: 0;
     width: 100%;
     height: auto;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .li{
@@ -27,6 +30,7 @@
     padding: 20px 24px;
     text-align: center;
     float: left;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .li:hover{
