@@ -5,7 +5,7 @@ export default function Navbar({children}){
     return(
         <div>
             {children}
-            <div className={styles}> 
+            <div className={styles.ul}> 
                 <ul className={styles.ul}>
                     <li className={styles.li}>
                         <a href="/" className={styles.a}>Home</a>
