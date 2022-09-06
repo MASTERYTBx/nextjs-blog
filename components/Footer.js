@@ -5,7 +5,7 @@ export default function footer({children}){
         <div>
             {children}
             <div className={styles.container}>
-                <h1 className={styles.container}>© Copyright 2022 <br></br> Developed by <span className={styles.span}>@Surfdo</span></h1>
+                <h1 className={styles.container}>© Copyright 2022 <br></br> Developed by <span className={styles.span}>@Surfdo <br></br> ⚠️BETA RELEASE</span></h1>
             </div>
         </div>
     )

@@ -5,7 +5,7 @@ import design from '../styles/index.module.css'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
-export default function Home(){
+export default function Home({ albums }){
   return(
     <Layout>
       <Navbar>

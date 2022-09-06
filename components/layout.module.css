@@ -16,3 +16,8 @@
 .span:hover{
     color: rgb(85, 86, 139);
 }
+
+.image{
+    width: 100%;
+    height: 100%;
+}
